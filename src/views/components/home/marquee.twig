@@ -1,0 +1,12 @@
+<section component-id="{{ componentId }}" class="db-marquee" data-testid="store-home-marquee">
+  <div class="db-marquee-track">
+    {% for n in 1..2 %}
+      <div class="db-marquee-group">
+        {% for i in 1..6 %}
+          {% set txt = attribute(component, 'item_' ~ i) %}
+          {% if txt %}<span>◆ {{ txt }}</span>{% endif %}
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</section>

@@ -1,10 +1,10 @@
 {
     "name": {
-        "ar": "رائد",
-        "en": "Theme Raed"
+        "ar": "دكتور بوردز - نبض",
+        "en": "Dr.Boards Pulse"
     },
-    "repository": "https://github.com/SallaApp/theme-raed",
-    "author_email": "support@salla.sa",
+    "repository": "https://github.com/hatmalthobaity-cmd/drboards-theme",
+    "author_email": "hatmalthbyty19@gmail.com",
     "features": [
         "mega-menu",
         "fonts",
@@ -1138,12 +1138,282 @@
                     "maxLength": 30
                 }
             ]
+        },
+        {
+            "key": "415320a8-5eec-44a0-88e6-a2c7abd56873",
+            "title": {
+                "en": "Marquee strip",
+                "ar": "الشريط المتحرك"
+            },
+            "icon": "sicon-star",
+            "path": "home.marquee",
+            "fields": [
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "نص 1",
+                    "multilanguage": true,
+                    "id": "item_1",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 60,
+                    "value": "مبرمجة ومجرّبة"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "نص 2",
+                    "multilanguage": true,
+                    "id": "item_2",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 60,
+                    "value": "شحن سريع لكل المملكة"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "نص 3",
+                    "multilanguage": true,
+                    "id": "item_3",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 60,
+                    "value": "دفع آمن"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "نص 4",
+                    "multilanguage": true,
+                    "id": "item_4",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 60,
+                    "value": "جودة وبساطة"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "نص 5",
+                    "multilanguage": true,
+                    "id": "item_5",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 60,
+                    "value": "تستلم وتشغّل مباشرة"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "نص 6",
+                    "multilanguage": true,
+                    "id": "item_6",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 60,
+                    "value": null
+                }
+            ]
+        },
+        {
+            "key": "65f25392-fce0-4e4e-bba5-a03be6729ce3",
+            "title": {
+                "en": "How it works",
+                "ar": "خطوات الاستخدام"
+            },
+            "icon": "sicon-lightning",
+            "path": "home.steps",
+            "fields": [
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "العنوان",
+                    "multilanguage": true,
+                    "id": "title",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 100,
+                    "value": "كيف تعمل بطاقتك؟"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان الخطوة 1",
+                    "multilanguage": true,
+                    "id": "t1",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 40,
+                    "value": "المس"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "وصف الخطوة 1",
+                    "multilanguage": true,
+                    "id": "d1",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 120,
+                    "value": "قرّب البطاقة من جوال العميل"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان الخطوة 2",
+                    "multilanguage": true,
+                    "id": "t2",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 40,
+                    "value": "قيّم"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "وصف الخطوة 2",
+                    "multilanguage": true,
+                    "id": "d2",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 120,
+                    "value": "تفتح صفحة التقييم مباشرة"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "عنوان الخطوة 3",
+                    "multilanguage": true,
+                    "id": "t3",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 40,
+                    "value": "انتهى"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "وصف الخطوة 3",
+                    "multilanguage": true,
+                    "id": "d3",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 120,
+                    "value": "تقييمات أكثر لنشاطك بدون تعقيد"
+                }
+            ]
+        },
+        {
+            "key": "8847ccc7-9c8e-4dd2-a81a-359ca65de39a",
+            "title": {
+                "en": "Call to action",
+                "ar": "بانر دعوة للشراء"
+            },
+            "icon": "sicon-image",
+            "path": "home.cta",
+            "fields": [
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "العنوان",
+                    "multilanguage": true,
+                    "id": "title",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 100,
+                    "value": "جاهز تضاعف تقييماتك؟"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "الوصف",
+                    "multilanguage": true,
+                    "id": "text",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 160,
+                    "value": "اطلب بطاقتك الآن واستلمها مبرمجة وجاهزة"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-format-text-alt",
+                    "label": "نص الزر",
+                    "multilanguage": true,
+                    "id": "button_text",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 30,
+                    "value": "اطلب الآن"
+                },
+                {
+                    "type": "string",
+                    "icon": "sicon-link",
+                    "label": "رابط الزر",
+                    "multilanguage": true,
+                    "id": "button_url",
+                    "required": false,
+                    "format": "text",
+                    "description": null,
+                    "placeholder": "...",
+                    "minLength": 0,
+                    "maxLength": 300,
+                    "value": null
+                }
+            ]
         }
     ],
-    "support_url": "https://salla.com/",
+    "support_url": "https://dr-boards.site",
     "description": {
-        "ar": "مجموعة كبيرة من المزايا لدعم تجارتك وتقديم تجربة تسوق مثيرة لعملائك",
-        "en": "A wide range of features to support your business and provide an exciting shopping experience for your customers"
+        "ar": "ثيم داكن عصري بهوية NFC لمتجر Dr.Boards",
+        "en": "Dark NFC-inspired theme for Dr.Boards"
     }
 }
-

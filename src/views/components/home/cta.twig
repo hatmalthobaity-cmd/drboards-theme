@@ -1,0 +1,9 @@
+<section component-id="{{ componentId }}" class="s-block" data-testid="store-home-cta">
+  <div class="container">
+    <div class="db-cta">
+      <h2>{{ component.title }}</h2>
+      <p>{{ component.text }}</p>
+      {% if component.button_text %}<a href="{{ component.button_url ? component.button_url : link('/') }}">{{ component.button_text }}</a>{% endif %}
+    </div>
+  </div>
+</section>

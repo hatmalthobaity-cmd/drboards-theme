@@ -1,0 +1,10 @@
+<section component-id="{{ componentId }}" class="db-steps s-block" data-testid="store-home-steps">
+  <div class="container">
+    {% if component.title %}<h2>{{ component.title }}</h2>{% endif %}
+    <div class="db-steps-grid">
+      <div class="db-step"><b>1</b><h4>{{ component.t1 }}</h4><p>{{ component.d1 }}</p></div>
+      <div class="db-step"><b>2</b><h4>{{ component.t2 }}</h4><p>{{ component.d2 }}</p></div>
+      <div class="db-step"><b>3</b><h4>{{ component.t3 }}</h4><p>{{ component.d3 }}</p></div>
+    </div>
+  </div>
+</section>
